@@ -6,17 +6,17 @@ import cn.note.entity.NoteBook;
 
 /**
  * 
- * ½Ó¿ÚÃû³Æ£º±Ê¼Ç±¾ĞÅÏ¢×¥È¡
- * ¹¦          ÄÜ£º×¥È¡±Ê¼Ç±¾ĞÅÏ¢
- * ×÷          Õß£ºpaperElephant
- * ´´½¨Ê±¼ä£º2017-10-08
- * ×îºóÎ¬»¤ÈË£ºpaperElephant
- * ×îºóÎ¬»¤Ê±¼ä£º2017-10-08
- * °æ±¾ºÅ£ºv1.0
+ * æ¥å£åç§°ï¼šç¬”è®°æœ¬ä¿¡æ¯æŠ“å–
+ * åŠŸ          èƒ½ï¼šæŠ“å–ç¬”è®°æœ¬ä¿¡æ¯
+ * ä½œ          è€…ï¼špaperElephant
+ * åˆ›å»ºæ—¶é—´ï¼š2017-10-08
+ * æœ€åç»´æŠ¤äººï¼špaperElephant
+ * æœ€åç»´æŠ¤æ—¶é—´ï¼š2017-10-08
+ * ç‰ˆæœ¬å·ï¼šv1.0
  *
  */
 public interface NoteBookDao {
-	List<NoteBook> findAllNoteBook();    //²éÑ¯È«²¿±Ê¼Ç±¾ĞÅÏ¢
-	NoteBook findNoteBookByNotebookId(String noteBookId);   //¸ù¾İ±Ê¼Ç±¾ID²éÑ¯±Ê¼Ç±¾
-	List<NoteBook> findNoteBookByUserId(String userId);   //¸ù¾İÓÃ»§Ãû²éÑ¯±Ê¼Ç±¾ĞÅÏ¢
+	List<NoteBook> findAllNoteBook();    //æŸ¥è¯¢å…¨éƒ¨ç¬”è®°æœ¬ä¿¡æ¯
+	NoteBook findNoteBookByNotebookId(String noteBookId);   //æ ¹æ®ç¬”è®°æœ¬IDæŸ¥è¯¢ç¬”è®°æœ¬
+	List<NoteBook> findNoteBookByUserId(String userId);   //æ ¹æ®ç”¨æˆ·åæŸ¥è¯¢ç¬”è®°æœ¬ä¿¡æ¯
 }

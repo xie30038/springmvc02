@@ -12,13 +12,13 @@ import cn.note.entity.NoteBook;
 
 /**
  * 
- * ÒµÎñÀàÃû³Æ£º±Ê¼Ç±¾ÒµÎñÀà
- * ¹¦          ÄÜ£º±Ê¼Ç±¾ÒµÎñĞÅÏ¢
- * ×÷          Õß£ºpaperElephant
- * ´´½¨Ê±¼ä£º2017-10-12
- * ×îºóÎ¬»¤ÈË£ºpaperElephant
- * ×îºóÎ¬»¤Ê±¼ä£º2017-10-12
- * °æ±¾ºÅ£ºv1.0
+ * ä¸šåŠ¡ç±»åç§°ï¼šç¬”è®°æœ¬ä¸šåŠ¡ç±»
+ * åŠŸ          èƒ½ï¼šç¬”è®°æœ¬ä¸šåŠ¡ä¿¡æ¯
+ * ä½œ          è€…ï¼špaperElephant
+ * åˆ›å»ºæ—¶é—´ï¼š2017-10-12
+ * æœ€åç»´æŠ¤äººï¼špaperElephant
+ * æœ€åç»´æŠ¤æ—¶é—´ï¼š2017-10-12
+ * ç‰ˆæœ¬å·ï¼šv1.0
  *
  */
 
@@ -30,13 +30,13 @@ public class NoteBookServiceImp implements NoteBookService {
 	@Resource
 	private NoteBookDao nbd;
 	
-	//Í¨¹ıÓÃ»§ID²éÕÒ±Ê¼Ç±¾
+	//é€šè¿‡ç”¨æˆ·IDæŸ¥æ‰¾ç¬”è®°æœ¬
 	public List<NoteBook> findNoteBookByUserId(String userId) throws NoteBookNoteFoundException {
 		if(userId == null || userId.trim().equals("")) {
-			throw new UserNotFoundException("ÓÃ»§Id²»ÄÜÎª¿Õ");
+			throw new UserNotFoundException("ç”¨æˆ·Idä¸èƒ½ä¸ºç©º");
 		}
 		if(ud.findUserById(userId) == null) {
-			throw new NoteBookNoteFoundException("ÓÃ»§²»´æÔÚ");
+			throw new NoteBookNoteFoundException("ç”¨æˆ·ä¸å­˜åœ¨");
 		}
 		return nbd.findNoteBookByUserId(userId);
 	}

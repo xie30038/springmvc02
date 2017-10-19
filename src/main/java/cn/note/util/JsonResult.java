@@ -5,27 +5,27 @@ import java.io.Serializable;
 
 /**
  * 
- * ¹¤¾ßÀàÃû³Æ£ºJson½á¹ûĞÅÏ¢Àà
- * ¹¦          ÄÜ£ºJsonĞÅÏ¢µ÷ÓÃ
- * ×÷          Õß£ºpaperElephant
- * ´´½¨Ê±¼ä£º2017-10-10
- * ×îºóÎ¬»¤ÈË£ºpaperElephant
- * ×îºóÎ¬»¤Ê±¼ä£º2017-10-10
- * °æ±¾ºÅ£ºv1.0
+ * å·¥å…·ç±»åç§°ï¼šJsonç»“æœä¿¡æ¯ç±»
+ * åŠŸ          èƒ½ï¼šJsonä¿¡æ¯è°ƒç”¨
+ * ä½œ          è€…ï¼špaperElephant
+ * åˆ›å»ºæ—¶é—´ï¼š2017-10-10
+ * æœ€åç»´æŠ¤äººï¼špaperElephant
+ * æœ€åç»´æŠ¤æ—¶é—´ï¼š2017-10-10
+ * ç‰ˆæœ¬å·ï¼šv1.0
  *
  */
 public class JsonResult implements Serializable {
 
 	/**
-	 * json½á¹ûĞÅÏ¢Àà:v1.0
+	 * jsonç»“æœä¿¡æ¯ç±»:v1.0
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	public static final int SUCCESS = 0;  //·µ»Ø×´Ì¬³É¹¦
-	public static final int ERROR = 1;    //·µ»Ø×´Ì¬Ê§°Ü
-	private int state;   //×´Ì¬
-	private Object data;  //·µ»ØÊı¾İ
-	private String message;  //·µ»ØĞÅÏ¢
+	public static final int SUCCESS = 0;  //è¿”å›çŠ¶æ€æˆåŠŸ
+	public static final int ERROR = 1;    //è¿”å›çŠ¶æ€å¤±è´¥
+	private int state;   //çŠ¶æ€
+	private Object data;  //è¿”å›æ•°æ®
+	private String message;  //è¿”å›ä¿¡æ¯
 	
 	public int getState() {
 		return state;

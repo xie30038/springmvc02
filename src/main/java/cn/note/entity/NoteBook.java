@@ -3,27 +3,27 @@ package cn.note.entity;
 import java.io.Serializable;
 /**
  * 
- * ÊµÌåÀàÃû³Æ£º±Ê¼Ç±¾ĞÅÏ¢
- * ¹¦          ÄÜ£º´æ´¢±Ê¼Ç±¾ĞÅÏ¢Àà
- * ×÷          Õß£ºpaperElephant
- * ´´½¨Ê±¼ä£º2017-10-05
- * ×îºóÎ¬»¤ÈË£ºpaperElephant
- * ×îºóÎ¬»¤Ê±¼ä£º2017-10-05
- * °æ±¾ºÅ£ºv1.0
+ * å®ä½“ç±»åç§°ï¼šç¬”è®°æœ¬ä¿¡æ¯
+ * åŠŸ          èƒ½ï¼šå­˜å‚¨ç¬”è®°æœ¬ä¿¡æ¯ç±»
+ * ä½œ          è€…ï¼špaperElephant
+ * åˆ›å»ºæ—¶é—´ï¼š2017-10-05
+ * æœ€åç»´æŠ¤äººï¼špaperElephant
+ * æœ€åç»´æŠ¤æ—¶é—´ï¼š2017-10-05
+ * ç‰ˆæœ¬å·ï¼šv1.0
  *
  */
 public class NoteBook implements Serializable {
 
 	/**
-	 * ±Ê¼Ç±¾ĞÅÏ¢Àà£¬1.0°æ±¾
+	 * ç¬”è®°æœ¬ä¿¡æ¯ç±»ï¼Œ1.0ç‰ˆæœ¬
 	 */
 	private static final long serialVersionUID = 1L;
-	private String noteBookId;  //±Ê¼Ç±¾ID
-	private String userId;      //ÓÃ»§Ãû³Æ
-	private String typeId;      //±Ê¼Ç±¾ÀàĞÍ
-	private String noteBookName;//±Ê¼Ç±¾Ãû³Æ
+	private String noteBookId;  //ç¬”è®°æœ¬ID
+	private String userId;      //ç”¨æˆ·åç§°
+	private String typeId;      //ç¬”è®°æœ¬ç±»å‹
+	private String noteBookName;//ç¬”è®°æœ¬åç§°
 	private String desc;        //
-	private Long createTime;  //´´½¨Ê±¼ä
+	private Long createTime;  //åˆ›å»ºæ—¶é—´
 	public String getNoteBookId() {
 		return noteBookId;
 	}

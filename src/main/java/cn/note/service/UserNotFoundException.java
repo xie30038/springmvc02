@@ -3,19 +3,19 @@ package cn.note.service;
 
 /**
  * 
- * Òì³£ÀàÃû³Æ£ºÓÃ»§Òì³£Àà
- * ¹¦          ÄÜ£ºÓÃ»§Òì³£ÀàĞÅÏ¢
- * ×÷          Õß£ºpaperElephant
- * ´´½¨Ê±¼ä£º2017-10-12
- * ×îºóÎ¬»¤ÈË£ºpaperElephant
- * ×îºóÎ¬»¤Ê±¼ä£º2017-10-12
- * °æ±¾ºÅ£ºv1.0
+ * å¼‚å¸¸ç±»åç§°ï¼šç”¨æˆ·å¼‚å¸¸ç±»
+ * åŠŸ          èƒ½ï¼šç”¨æˆ·å¼‚å¸¸ç±»ä¿¡æ¯
+ * ä½œ          è€…ï¼špaperElephant
+ * åˆ›å»ºæ—¶é—´ï¼š2017-10-12
+ * æœ€åç»´æŠ¤äººï¼špaperElephant
+ * æœ€åç»´æŠ¤æ—¶é—´ï¼š2017-10-12
+ * ç‰ˆæœ¬å·ï¼šv1.0
  *
  */
 public class UserNotFoundException extends RuntimeException {
 
 	/**
-	 * ÓÃ»§Òì³£Àà£ºv1.0
+	 * ç”¨æˆ·å¼‚å¸¸ç±»ï¼šv1.0
 	 */
 	private static final long serialVersionUID = 1L;
 

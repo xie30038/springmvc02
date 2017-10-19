@@ -11,8 +11,8 @@ public class TestNoteBookDemo01 {
 
 	public static void main(String[] args) {
 		//testFindAll();
-		//testFindNotebookByUserId();
-		testFindNoteBookByNoteBookId();
+		testFindNotebookByUserId();
+		//testFindNoteBookByNoteBookId();
 		
 		
 	}

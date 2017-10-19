@@ -4,29 +4,29 @@ import java.io.Serializable;
 
 /**
  * 
- * ÊµÌåÀàÃû³Æ£º±Ê¼ÇĞÅÏ¢
- * ¹¦          ÄÜ£º´æ´¢±Ê¼ÇĞÅÏ¢Àà
- * ×÷          Õß£ºpaperElephant
- * ´´½¨Ê±¼ä£º2017-10-08
- * ×îºóÎ¬»¤ÈË£ºpaperElephant
- * ×îºóÎ¬»¤Ê±¼ä£º2017-10-08
- * °æ±¾ºÅ£ºv1.0
+ * å®ä½“ç±»åç§°ï¼šç¬”è®°ä¿¡æ¯
+ * åŠŸ          èƒ½ï¼šå­˜å‚¨ç¬”è®°ä¿¡æ¯ç±»
+ * ä½œ          è€…ï¼špaperElephant
+ * åˆ›å»ºæ—¶é—´ï¼š2017-10-08
+ * æœ€åç»´æŠ¤äººï¼špaperElephant
+ * æœ€åç»´æŠ¤æ—¶é—´ï¼š2017-10-08
+ * ç‰ˆæœ¬å·ï¼šv1.0
  *
  */
 public class Note implements Serializable {
 
 	/**
-	 * ±Ê¼ÇĞÅÏ¢Àà£¬v1.0°æ±¾
+	 * ç¬”è®°ä¿¡æ¯ç±»ï¼Œv1.0ç‰ˆæœ¬
 	 */
 	private static final long serialVersionUID = 1L;
-	private String noteId;        //±Ê¼ÇID
-	private String noteBookId;    //±Ê¼Ç±¾ID
-	private String userId;        //ÓÃ»§ID
+	private String noteId;        //ç¬”è®°ID
+	private String noteBookId;    //ç¬”è®°æœ¬ID
+	private String userId;        //ç”¨æˆ·ID
 	private String statusId;      //
-	private String typeId;        //ÀàĞÍ
-	private String title;         //±êÌâ
-	private Long createTime;      //´´½¨Ê±¼ä
-	private Long lastModifyTime;  //×îºóĞŞ¸ÄÊ±¼ä
+	private String typeId;        //ç±»å‹
+	private String title;         //æ ‡é¢˜
+	private Long createTime;      //åˆ›å»ºæ—¶é—´
+	private Long lastModifyTime;  //æœ€åä¿®æ”¹æ—¶é—´
 	public String getNoteId() {
 		return noteId;
 	}

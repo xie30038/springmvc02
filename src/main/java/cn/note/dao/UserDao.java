@@ -7,22 +7,22 @@ import cn.note.entity.User;
 
 /**
  * 
- * ½Ó¿ÚÃû³Æ£ºÓÃ»§ĞÅÏ¢×¥È¡
- * ¹¦          ÄÜ£º×¥È¡ÓÃ»§ĞÅÏ¢
- * ×÷          Õß£ºpaperElephant
- * ´´½¨Ê±¼ä£º2017-10-08
- * ×îºóÎ¬»¤ÈË£ºpaperElephant
- * ×îºóÎ¬»¤Ê±¼ä£º2017-10-08
- * °æ±¾ºÅ£ºv1.0
+ * æ¥å£åç§°ï¼šç”¨æˆ·ä¿¡æ¯æŠ“å–
+ * åŠŸ          èƒ½ï¼šæŠ“å–ç”¨æˆ·ä¿¡æ¯
+ * ä½œ          è€…ï¼špaperElephant
+ * åˆ›å»ºæ—¶é—´ï¼š2017-10-08
+ * æœ€åç»´æŠ¤äººï¼špaperElephant
+ * æœ€åç»´æŠ¤æ—¶é—´ï¼š2017-10-08
+ * ç‰ˆæœ¬å·ï¼šv1.0
  *
  */
 public interface UserDao {
-	List<User> findAll();  //²éÑ¯È«²¿ÓÃ»§ĞÅÏ¢
-	User findUserByName(String name);  //Í¨¹ıÓÃ»§Ãû²éÑ¯ÓÃ»§ĞÅÏ¢
-	User findUserById(String userId);  //¸ù¾İÓÃ»§ID²éÑ¯ÓÃ»§ĞÅÏ¢
-	List<User> findUserByIdAndName(Map<String,String> map);  //¸ù¾İIDºÍÓÃ»§Ãû²éÑ¯ÓÃ»§ĞÅÏ¢
-	List<User> findUserByIdOrName(Map<String,String> map);   //¸ù¾İID»òÓÃ»§Ãû²éÑ¯ÓÃ»§ĞÅÏ¢
-	int addUser(User u);    //ĞÂÔöÓÃ»§
-	int deleteByName(String name);  //É¾³ıÓÃ»§
+	List<User> findAll();  //æŸ¥è¯¢å…¨éƒ¨ç”¨æˆ·ä¿¡æ¯
+	User findUserByName(String name);  //é€šè¿‡ç”¨æˆ·åæŸ¥è¯¢ç”¨æˆ·ä¿¡æ¯
+	User findUserById(String userId);  //æ ¹æ®ç”¨æˆ·IDæŸ¥è¯¢ç”¨æˆ·ä¿¡æ¯
+	List<User> findUserByIdAndName(Map<String,String> map);  //æ ¹æ®IDå’Œç”¨æˆ·åæŸ¥è¯¢ç”¨æˆ·ä¿¡æ¯
+	List<User> findUserByIdOrName(Map<String,String> map);   //æ ¹æ®IDæˆ–ç”¨æˆ·åæŸ¥è¯¢ç”¨æˆ·ä¿¡æ¯
+	int addUser(User u);    //æ–°å¢ç”¨æˆ·
+	int deleteByName(String name);  //åˆ é™¤ç”¨æˆ·
 	
 }

@@ -3,19 +3,19 @@ package cn.note.service;
 
 /**
  * 
- * Òì³£ÀàÃû³Æ£ºÃÜÂëÒì³£Àà
- * ¹¦          ÄÜ£ºÃÜÂëÒì³£ĞÅÏ¢
- * ×÷          Õß£ºpaperElephant
- * ´´½¨Ê±¼ä£º2017-10-08
- * ×îºóÎ¬»¤ÈË£ºpaperElephant
- * ×îºóÎ¬»¤Ê±¼ä£º2017-10-08
- * °æ±¾ºÅ£ºv1.0
+ * å¼‚å¸¸ç±»åç§°ï¼šå¯†ç å¼‚å¸¸ç±»
+ * åŠŸ          èƒ½ï¼šå¯†ç å¼‚å¸¸ä¿¡æ¯
+ * ä½œ          è€…ï¼špaperElephant
+ * åˆ›å»ºæ—¶é—´ï¼š2017-10-08
+ * æœ€åç»´æŠ¤äººï¼špaperElephant
+ * æœ€åç»´æŠ¤æ—¶é—´ï¼š2017-10-08
+ * ç‰ˆæœ¬å·ï¼šv1.0
  *
  */
 public class PasswordException extends RuntimeException {
 
 	/**
-	 * ÃÜÂëÒì³£Àà£¬v1.0°æ±¾
+	 * å¯†ç å¼‚å¸¸ç±»ï¼Œv1.0ç‰ˆæœ¬
 	 */
 	private static final long serialVersionUID = 1L;
 

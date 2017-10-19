@@ -3,27 +3,27 @@ package cn.note.entity;
 import java.io.Serializable;
 /**
  * 
- * ÊµÌåÀàÃû³Æ£ºÓÃ»§ĞÅÏ¢
- * ¹¦          ÄÜ£º´æ´¢ÓÃ»§ĞÅÏ¢Àà
- * ×÷          Õß£ºpaperElephant
- * ´´½¨Ê±¼ä£º2017-10-05
- * ×îºóÎ¬»¤ÈË£ºpaperElephant
- * ×îºóÎ¬»¤Ê±¼ä£º2017-10-05
- * °æ±¾ºÅ£ºv1.0
+ * å®ä½“ç±»åç§°ï¼šç”¨æˆ·ä¿¡æ¯
+ * åŠŸ          èƒ½ï¼šå­˜å‚¨ç”¨æˆ·ä¿¡æ¯ç±»
+ * ä½œ          è€…ï¼špaperElephant
+ * åˆ›å»ºæ—¶é—´ï¼š2017-10-05
+ * æœ€åç»´æŠ¤äººï¼špaperElephant
+ * æœ€åç»´æŠ¤æ—¶é—´ï¼š2017-10-05
+ * ç‰ˆæœ¬å·ï¼šv1.0
  *
  */
 public class User implements Serializable {
 
 	/**
-	 * ÓÃ»§ÊµÌåÀà£¬1.0°æ±¾
+	 * ç”¨æˆ·å®ä½“ç±»ï¼Œ1.0ç‰ˆæœ¬
 	 */
 	private static final long serialVersionUID = (long) 1.0;
 	
-	private String userId;  //ÓÃ»§ID
-	private String userName;    //ÓÃ»§Ãû
-	private String password;//ÃÜÂë
-	private String token;   //»á»°±êÖ¾
-	private String nick;    // êÇ³Æ
+	private String userId;  //ç”¨æˆ·ID
+	private String userName;    //ç”¨æˆ·å
+	private String password;//å¯†ç 
+	private String token;   //ä¼šè¯æ ‡å¿—
+	private String nick;    // æ˜µç§°
 	public String getUserId() {
 		return userId;
 	}

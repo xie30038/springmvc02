@@ -35,7 +35,7 @@
 	<context:component-scan base-package="cn.note.util" />
 	<!-- 开启注解版spring-mvc -->
 	<!-- <cache:annotation-driven/> -->
-	<mvc:annotation-driven />
+	<mvc:annotation-driven/>
 	<!-- 可以访问html文件 -->
 	<mvc:default-servlet-handler />
 	<!-- 开启视图处理器 -->
